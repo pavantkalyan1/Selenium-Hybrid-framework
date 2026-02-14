@@ -6,6 +6,9 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.AfterMethod;
 import com.Automation.Framework.utils.Utilities.ConfigReader;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 import java.time.Duration;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
@@ -23,9 +26,11 @@ public class Base {
         String browser = config.getbrowser();
 
         if(browser.equalsIgnoreCase("chrome")){
+            WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();
         }
         else if(browser.equalsIgnoreCase("edge")){
+            WebDriverManager.edgedriver().setup();
             driver = new EdgeDriver();
         }
         else {
