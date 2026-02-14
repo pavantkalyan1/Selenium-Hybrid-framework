@@ -1,0 +1,18 @@
+base 
+-- Webdriver declaration
+-- browser initialization
+-- Config initialization
+-- testng setup & tear
+-- Logging setup
+
+src - 
+    main 
+        java - util - config reader, srcreenshots,file read write ,actions, switching windows
+                      base
+                      page pom
+        resources
+                      config
+    test
+        java - tests
+
+        resources
