@@ -1,10 +1,6 @@
 package com.Automation.Framework;
 
-/**
- * Hello world!
- *
- */
-public class App 
+public class Base 
 {
     public static void main( String[] args )
     {

@@ -1,0 +1,7 @@
+base 
+-- Webdriver declaration
+-- browser initialization
+-- Config initialization
+-- testng setup & tear
+-- Logging setup
+
