@@ -1,9 +1,7 @@
 package com.Automation.Framework;
 
-public class Base 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
-    }
+public class Base {
+
+    private WebDriver driver;
+    
 }
