@@ -1,4 +1,4 @@
-package com.selenium;
+package com.Automation.Framework;
 
 /**
  * Hello world!
