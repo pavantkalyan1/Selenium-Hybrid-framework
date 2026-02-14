@@ -17,7 +17,7 @@ public class Page {
 
     //Home Page
     @FindBy (css = ".card-body")
-    WebElement cardsInShopping;
+    WebElement cardsInShopping; 
 
    
 }
