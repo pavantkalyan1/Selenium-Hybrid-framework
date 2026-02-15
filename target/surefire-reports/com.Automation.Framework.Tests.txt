@@ -1,4 +1,19 @@
 -------------------------------------------------------------------------------
 Test set: com.Automation.Framework.Tests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.916 s - in com.Automation.Framework.Tests
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 43.256 s <<< FAILURE! - in com.Automation.Framework.Tests
+Clickoncart(com.Automation.Framework.Tests)  Time elapsed: 30.727 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //button[@routerlink = './dashboard/cart']' (tried for 20 second(s) with 500 milliseconds interval)
+	at com.Automation.Framework.Tests.Clickoncart(Tests.java:27)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//button[@routerlink = './dashboard/cart']"}
+  (Session info: chrome=145.0.7632.76)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b42506400b728223f4f85af3be20e01b, findElement {using=xpath, value=//button[@routerlink = './dashboard/cart']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.76, chrome: {chromedriverVersion: 145.0.7632.76 (ee36f024f43a..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57432}, goog:processID: 20316, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57432/devtoo..., se:cdpVersion: 145.0.7632.76, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b42506400b728223f4f85af3be20e01b
+	at com.Automation.Framework.Tests.Clickoncart(Tests.java:27)
+
