@@ -26,4 +26,6 @@ public class ConfigReader {
     public String getURL(){
         return prop.getProperty("URL");
     }
+
+
 }

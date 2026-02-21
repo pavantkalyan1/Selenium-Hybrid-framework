@@ -5,9 +5,10 @@
     <classes>
       <class name="com.Automation.Framework.Tests">
         <methods>
+          <include name="initPage"/>
           <include name="Setup"/>
           <include name="teardown"/>
-          <include name="Clickoncart"/>
+          <include name="Enterbilllingdetails"/>
         </methods>
       </class> <!-- com.Automation.Framework.Tests -->
     </classes>
