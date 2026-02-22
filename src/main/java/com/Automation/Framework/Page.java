@@ -10,6 +10,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
+import org.openqa.selenium.JavascriptExecutor;
 
 public class Page extends Base{
 
@@ -31,6 +32,10 @@ public class Page extends Base{
         wait.until(ExpectedConditions.invisibilityOfElementLocated(By.cssSelector(".ngx-spinner-overlay")));
     }
         
+    public void JSexecutor(WebElement element3){
+        JavascriptExecutor js = ((JavascriptExecutor) driver);
+        js.executeScript("arguments[0].click();", element3);
+    }
      //Actions class
     public void actions(WebElement btnelement) {
         Actions act = new Actions(driver);
@@ -111,7 +116,7 @@ public class Page extends Base{
    @FindBy (css = ".ta-item")
    List<WebElement> Allcountries;
 
-   @FindBy (css = ".action__submit ")
+   @FindBy (xpath = "//a[contains(text(),'Place Order')]")
    WebElement Placeorder;
 
    public void allcountry(String country){
@@ -130,9 +135,10 @@ public class Page extends Base{
     Countrycode.sendKeys(country);
     allcountry(country);
     Applycoupon.click();
-    ElementTobeInvisible();
+    JSexecutor(Placeorder);
+    //ElementTobeInvisible();
     //ElementTobeClickable(Placeorder);
     //Placeorder.click();
-    actions(Placeorder);
+    //actions(Placeorder);
    }
 }
