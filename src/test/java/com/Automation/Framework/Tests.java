@@ -41,4 +41,20 @@ public class Tests extends Base{
         page.Enterbilllingdetails("123","pavan","rahulshettyacademy","india");
         System.out.println("Clicked on Place order");
     }
-}
+
+    String orderId;
+
+    @Test (priority = 5)
+    public void OriginalOrderId(){
+        orderId = page.getorderId();
+        System.out.println("Original Order Id = " + orderId);
+    }
+
+    @Test (priority = 6)
+    public void Clickonordersandverify(){
+        boolean clicked = page.orderspage(orderId);
+        assert clicked : "View button was not clicked for order " + orderId;
+        System.out.println("Navigated to order details for " + orderId);
+    }
+    }
+

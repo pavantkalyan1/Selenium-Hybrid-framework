@@ -52,13 +52,13 @@ public class Base {
     }
 
 
-    @AfterClass
-    public void teardown()
-    {
-        if(driver!= null){
-            driver.quit();
-        }
-    }
+    // @AfterClass
+    // public void teardown()
+    // {
+    //     if(driver!= null){
+    //         driver.quit();
+    //     }
+    // }
 
     protected Logger log = LogManager.getLogger(Base.class); //5.Logging setup
 }

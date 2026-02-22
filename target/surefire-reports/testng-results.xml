@@ -1,56 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-22T14:43:47 IST" name="Surefire suite" finished-at="2026-02-22T14:44:19 IST" duration-ms="32253">
+  <suite started-at="2026-02-22T17:09:04 IST" name="Surefire suite" finished-at="2026-02-22T17:09:57 IST" duration-ms="52764">
     <groups>
     </groups>
-    <test started-at="2026-02-22T14:43:47 IST" name="Surefire test" finished-at="2026-02-22T14:44:19 IST" duration-ms="32253">
+    <test started-at="2026-02-22T17:09:04 IST" name="Surefire test" finished-at="2026-02-22T17:09:57 IST" duration-ms="52764">
       <class name="com.Automation.Framework.Tests">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:com.Automation.Framework.Tests@7eecb5b8]" started-at="2026-02-22T14:43:47 IST" name="Setup" finished-at="2026-02-22T14:43:53 IST" duration-ms="6766" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.Automation.Framework.Tests@47caedad]" started-at="2026-02-22T17:09:04 IST" name="Setup" finished-at="2026-02-22T17:09:09 IST" duration-ms="5157" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method is-config="true" signature="initPage()[pri:0, instance:com.Automation.Framework.Tests@7eecb5b8]" started-at="2026-02-22T14:43:53 IST" name="initPage" finished-at="2026-02-22T14:43:53 IST" duration-ms="20" status="PASS">
+        <test-method is-config="true" signature="initPage()[pri:0, instance:com.Automation.Framework.Tests@47caedad]" started-at="2026-02-22T17:09:09 IST" name="initPage" finished-at="2026-02-22T17:09:09 IST" duration-ms="95" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPage -->
-        <test-method signature="LoginApplication()[pri:0, instance:com.Automation.Framework.Tests@7eecb5b8]" started-at="2026-02-22T14:43:53 IST" name="LoginApplication" finished-at="2026-02-22T14:43:54 IST" duration-ms="478" status="PASS">
+        <test-method signature="LoginApplication()[pri:0, instance:com.Automation.Framework.Tests@47caedad]" started-at="2026-02-22T17:09:09 IST" name="LoginApplication" finished-at="2026-02-22T17:09:10 IST" duration-ms="772" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginApplication -->
-        <test-method signature="ProductSelection()[pri:1, instance:com.Automation.Framework.Tests@7eecb5b8]" started-at="2026-02-22T14:43:54 IST" name="ProductSelection" finished-at="2026-02-22T14:43:55 IST" duration-ms="1052" status="PASS">
+        <test-method signature="ProductSelection()[pri:1, instance:com.Automation.Framework.Tests@47caedad]" started-at="2026-02-22T17:09:10 IST" name="ProductSelection" finished-at="2026-02-22T17:09:11 IST" duration-ms="747" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSelection -->
-        <test-method is-config="true" signature="initPage()[pri:0, instance:com.Automation.Framework.Tests@7eecb5b8]" started-at="2026-02-22T14:43:54 IST" name="initPage" finished-at="2026-02-22T14:43:54 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="initPage()[pri:0, instance:com.Automation.Framework.Tests@47caedad]" started-at="2026-02-22T17:09:10 IST" name="initPage" finished-at="2026-02-22T17:09:10 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPage -->
-        <test-method signature="Clickoncart()[pri:2, instance:com.Automation.Framework.Tests@7eecb5b8]" started-at="2026-02-22T14:43:55 IST" name="Clickoncart" finished-at="2026-02-22T14:44:17 IST" duration-ms="22044" status="PASS">
+        <test-method is-config="true" signature="initPage()[pri:0, instance:com.Automation.Framework.Tests@47caedad]" started-at="2026-02-22T17:09:11 IST" name="initPage" finished-at="2026-02-22T17:09:11 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="Clickoncart()[pri:2, instance:com.Automation.Framework.Tests@47caedad]" started-at="2026-02-22T17:09:11 IST" name="Clickoncart" finished-at="2026-02-22T17:09:33 IST" duration-ms="22153" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Clickoncart -->
-        <test-method is-config="true" signature="initPage()[pri:0, instance:com.Automation.Framework.Tests@7eecb5b8]" started-at="2026-02-22T14:43:55 IST" name="initPage" finished-at="2026-02-22T14:43:55 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPage -->
-        <test-method signature="Clickcheckout()[pri:3, instance:com.Automation.Framework.Tests@7eecb5b8]" started-at="2026-02-22T14:44:17 IST" name="Clickcheckout" finished-at="2026-02-22T14:44:17 IST" duration-ms="331" status="PASS">
+        <test-method signature="Clickcheckout()[pri:3, instance:com.Automation.Framework.Tests@47caedad]" started-at="2026-02-22T17:09:33 IST" name="Clickcheckout" finished-at="2026-02-22T17:09:34 IST" duration-ms="556" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Clickcheckout -->
-        <test-method is-config="true" signature="initPage()[pri:0, instance:com.Automation.Framework.Tests@7eecb5b8]" started-at="2026-02-22T14:44:17 IST" name="initPage" finished-at="2026-02-22T14:44:17 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="initPage()[pri:0, instance:com.Automation.Framework.Tests@47caedad]" started-at="2026-02-22T17:09:33 IST" name="initPage" finished-at="2026-02-22T17:09:33 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPage -->
-        <test-method signature="Enterbilllingdetails()[pri:4, instance:com.Automation.Framework.Tests@7eecb5b8]" started-at="2026-02-22T14:44:17 IST" name="Enterbilllingdetails" finished-at="2026-02-22T14:44:19 IST" duration-ms="1495" status="PASS">
+        <test-method is-config="true" signature="initPage()[pri:0, instance:com.Automation.Framework.Tests@47caedad]" started-at="2026-02-22T17:09:34 IST" name="initPage" finished-at="2026-02-22T17:09:34 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="Enterbilllingdetails()[pri:4, instance:com.Automation.Framework.Tests@47caedad]" started-at="2026-02-22T17:09:34 IST" name="Enterbilllingdetails" finished-at="2026-02-22T17:09:36 IST" duration-ms="2069" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Enterbilllingdetails -->
-        <test-method is-config="true" signature="initPage()[pri:0, instance:com.Automation.Framework.Tests@7eecb5b8]" started-at="2026-02-22T14:44:17 IST" name="initPage" finished-at="2026-02-22T14:44:17 IST" duration-ms="0" status="PASS">
+        <test-method signature="OriginalOrderId()[pri:5, instance:com.Automation.Framework.Tests@47caedad]" started-at="2026-02-22T17:09:36 IST" name="OriginalOrderId" finished-at="2026-02-22T17:09:36 IST" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OriginalOrderId -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:com.Automation.Framework.Tests@47caedad]" started-at="2026-02-22T17:09:36 IST" name="initPage" finished-at="2026-02-22T17:09:36 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPage -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:com.Automation.Framework.Tests@47caedad]" started-at="2026-02-22T17:09:36 IST" name="initPage" finished-at="2026-02-22T17:09:36 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="Clickonordersandverify()[pri:6, instance:com.Automation.Framework.Tests@47caedad]" started-at="2026-02-22T17:09:36 IST" name="Clickonordersandverify" finished-at="2026-02-22T17:09:57 IST" duration-ms="20848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Clickonordersandverify -->
       </class> <!-- com.Automation.Framework.Tests -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
