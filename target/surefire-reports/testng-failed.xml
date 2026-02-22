@@ -7,9 +7,7 @@
         <methods>
           <include name="initPage"/>
           <include name="Setup"/>
-          <include name="Clickonordersandverify"/>
-          <include name="OriginalOrderId"/>
-          <include name="Enterbilllingdetails"/>
+          <include name="Assertorder"/>
         </methods>
       </class> <!-- com.Automation.Framework.Tests -->
     </classes>

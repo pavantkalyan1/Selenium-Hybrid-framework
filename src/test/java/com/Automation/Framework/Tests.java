@@ -2,6 +2,7 @@ package com.Automation.Framework;
 
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeMethod;
+import org.testng.Assert;
 
 public class Tests extends Base{
 
@@ -56,5 +57,12 @@ public class Tests extends Base{
         assert clicked : "View button was not clicked for order " + orderId;
         System.out.println("Navigated to order details for " + orderId);
     }
+
+    @Test (priority = 7)
+    public void Assertorder(){
+        String Actualvalue = page.ordersummaryorderid();
+        Assert.assertEquals(Actualvalue, orderId, "Not matched");
+    }
+
     }
 

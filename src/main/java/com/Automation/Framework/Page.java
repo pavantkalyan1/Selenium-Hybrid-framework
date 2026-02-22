@@ -8,8 +8,9 @@ import java.util.List;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
+
 import java.time.Duration;
-import org.openqa.selenium.WebElement;
 
 public class Page extends Base{
 
@@ -193,5 +194,13 @@ public class Page extends Base{
         }
     }
     return false;
+   }
+
+   @FindBy (css = ".col-text")
+   WebElement finalOrder;
+
+   public String ordersummaryorderid(){
+    return finalOrder.getText().trim();
+    
    }
 }
